@@ -12,3 +12,7 @@ Song Recommend Program Using Youtube
 2. BeautifulSoup4
 3. Selenium
 4. [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), should check version of ChromeDriver according to your chrome version.
+
+1.3 ChromeDriver - Where should be placed?
+-------------
+```ChromeDriver.exe should be placed same directory of recommendsong.py```
