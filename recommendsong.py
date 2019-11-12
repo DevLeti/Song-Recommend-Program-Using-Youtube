@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
-
+import os #현재 경로 알아내기
 #import time
 def recommend(keyword):
 
@@ -31,7 +31,8 @@ def recommend(keyword):
     # 직접적으로 들어갔을때 정보를 얻어오지 못하게 유투브에서 막는중. #
     # Selenium 방식                                                 #
     ################################################################
-    driver = webdriver.Chrome('C:\\song_recommend\\chromedriver.exe')
+    file_path = os.path.dirname(os.path.realpath(__file__))
+    driver = webdriver.Chrome(file_path + '\\chromedriver.exe')
     
     driver.get('https://youtube.com')
     driver.implicitly_wait(3) # 로딩 기다려주기
