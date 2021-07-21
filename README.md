@@ -9,9 +9,8 @@ Song Recommend Program Using Youtube
 1.2 Requirements
 -------------
 1. Python 3.7.3
-2. BeautifulSoup4
-3. Selenium
-4. [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), should check version of ChromeDriver according to your chrome version.
+2. Selenium
+3. [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), should check version of ChromeDriver according to your chrome version.
 
 1.3 ChromeDriver - Where should be placed?
 -------------
